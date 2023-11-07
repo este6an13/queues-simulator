@@ -1,0 +1,1 @@
+double lcgrand(int num);

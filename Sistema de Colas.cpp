@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "lcgrand.cpp"  /* Encabezado para el generador de numeros aleatorios */
+#include "lcgrand.h"  /* Encabezado para el generador de numeros aleatorios */
 
 #define LIMITE_COLA 100  /* Capacidad maxima de la cola */
 #define OCUPADO      1  /* Indicador de Servidor Ocupado */
@@ -162,7 +162,7 @@ void llegada(void)  /* Funcion de llegada */
 
         ++num_entra_cola;
 
-        /* Verifica si hay condición de desbordamiento */
+        /* Verifica si hay condiciï¿½n de desbordamiento */
 
         if (num_entra_cola > LIMITE_COLA) {
 
@@ -238,7 +238,7 @@ void salida(void)  /* Funcion de Salida. */
 
 void reportes(void)  /* Funcion generadora de reportes. */
 {
-    /* Calcula y estima los estimados de las medidas deseadas de desempeño */  
+    /* Calcula y estima los estimados de las medidas deseadas de desempeï¿½o */  
     fprintf(resultados, "\n\nEspera promedio en la cola%11.3f minutos\n\n",
             total_de_esperas / num_clientes_espera);
     fprintf(resultados, "Numero promedio en cola%10.3f\n\n",
