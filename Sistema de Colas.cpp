@@ -4,8 +4,9 @@
 #include <stdlib.h>
 #include <math.h>
 #include "lcgrand.h"  /* Encabezado para el generador de numeros aleatorios */
+#include <iostream>
 
-#define LIMITE_COLA 100  /* Capacidad maxima de la cola */
+#define LIMITE_COLA 1000  /* Capacidad maxima de la cola */
 #define OCUPADO      1  /* Indicador de Servidor Ocupado */
 #define LIBRE      0  /* Indicador de Servidor Libre */
 
@@ -168,7 +169,7 @@ void llegada(void)  /* Funcion de llegada */
 
             /* Se ha desbordado la cola, detiene la simulacion */
 
-            fprintf(resultados, "\nDesbordamiento del arreglo tiempo_llegada a la hora");
+            fprintf(resultados, "\nDesbordamiento del arreglo tiempo_llegada a la hora ");
             fprintf(resultados, "%f", tiempo_simulacion);
             exit(2);
         }
