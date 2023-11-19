@@ -1,0 +1,18 @@
+0. Programa diseñado en lenguaje de programación C++ para simulación de sistemas de líneas de espera tipo M/M/m con pérdida. A partir de este, se pueden hacer varios tipos de experimentos y extender el código para otros tipos de modelos de forma muy sencilla.
+
+1. Se cambiaron los nombres de las variables de inglés a español.
+
+2. El archivo de entrada "mm1.in" se cambió por "param.txt" (para mayor claridad y fácil modificación de los parámetros de entrada).
+
+3. El archivo de salida "mm2.out" se cambió por "result.txt" (para una lectura más fácil de las estadísticas).
+
+4. El archivo "lcgrand.cpp" se tomó de http://www.sju.edu/~sforman/courses/2000F_CSC_5835/, que es una página de simulaciones. Buscar en el enlace de Simlib.c (una librería para simulaciones).
+
+5. COMANDO DE COMPILACIÓN
+
+    g++ -o main.exe "Sistema de Colas.cpp" lcgrand.cpp
+
+6. COMANDO DE EJECUCIÓN
+
+    main.exe
+    
