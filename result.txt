@@ -1,29 +1,29 @@
 Tiempo promedio de llegada      0.115 minutos
 
-Tiempo promedio de atencion           0.162 minutos
+Tiempo promedio de atención           0.162 minutos
 
-Numero de clientes          1000
+Número de clientes          1000
 
 
 Espera promedio en la cola      0.000 minutos
 
-Numero promedio en cola     0.000
+Número promedio en cola     0.000
 
-Tiempo de terminacion de la simulacion     118.739 minutos
+Tiempo de terminación de la simulación     118.739 minutos
 
 
 Throughput simulado     0.144
 
-Throughput teórico     0.114
+Throughput teórico     0.115
 
-Throughput error     0.260
+Throughput error     0.253
 
 
 Número medio clientes sistema simulado     0.770
 
-Número medio clientes sistema teórico     0.704
+Número medio clientes sistema teórico     0.708
 
-Número medio clientes sistema error     0.093
+Número medio clientes sistema error     0.088
 
 
 Tiempo medio clientes sistema simulado     6.463
